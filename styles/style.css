@@ -1,4 +1,6 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -6,6 +8,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-size: 17px;
+    font-family: "Roboto", serif;
 
 }
 
@@ -128,7 +131,7 @@ nav ul li a {
 /* ==event-section== */
 .event-main {
     text-align: center;
-    padding:50px 14% ;
+    padding: 50px 14%;
 
 }
 
@@ -143,7 +146,7 @@ nav ul li a {
 .event-item {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .event {
@@ -153,7 +156,7 @@ nav ul li a {
 }
 
 .event img {
-    
+
     height: 350px;
 
     width: 100%;
@@ -180,7 +183,7 @@ nav ul li a {
 }
 
 /* ==explore section== */
-.explore-world{
+.explore-world {
     background-image: url(../images/father.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -195,58 +198,88 @@ nav ul li a {
 
 
 }
-.explore-item{
-width: 50%;
+
+.explore-item {
+    width: 50%;
 }
-.explore-item h1{
-margin: 40px 0 0 0;
+
+.explore-item h1 {
+    margin: 40px 0 0 0;
 }
-.explore-item p{
+
+.explore-item p {
     margin: 30px 0 30px 0;
     font-size: 20px;
 }
-.explore-item a{
-text-decoration: none;
-font-size: 25px;
-color:white;
-letter-spacing: 2px;
-font-weight: 600;
+
+.explore-item a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 /* ====tour & destination */
 
-.tour-main{
+.tour-main {
     padding: 5%;
 }
-.tour-destination{
+
+.tour-destination {
     display: flex;
     justify-content: space-between;
 }
-.tour-one{
+
+.tour-one {
     width: 33%;
     padding: 15px;
-    
+
 }
-.tour-one h3{
+
+.tour-one h3 {
     font-size: 40px;
     font-weight: 900;
     margin: 20px 0 20px 0;
 }
-.tour-one p{
+
+.tour-one p {
     margin: 20px 0 20px 0;
 }
-.tour-one a{
-text-decoration: none;
-font-size: 20px;
-font-weight: 600;
-letter-spacing: 1px;
-color: red;
+
+.tour-one a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: red;
 }
-.img-one{
+
+.img-one {
     height: 300px;
     margin: 0 0 25px 0;
+    object-fit: cover;
 }
-.img-two{
-height: 350px;
-margin: 0 0 25px 0;
+
+.img-two {
+    height: 350px;
+    margin: 0 0 25px 0;
+    object-fit: cover;
+}
+
+footer {
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 100px;
+    color: white;
+    text-align:center ;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.683);
+    margin: 0 0 20px 0;
+    
+}
+footer p{
+    font-size: 30px;
 }
