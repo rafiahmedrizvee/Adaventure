@@ -282,4 +282,24 @@ footer {
 }
 footer p{
     font-size: 30px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+.dot{
+    margin: 10px 0 0 20px;
+    
+    padding: 10px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 20px;
+    border-radius: 50%;
+   
+
+}
+.dot:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    letter-spacing: 3px;
+    border: 1px solid white;
+    
 }
