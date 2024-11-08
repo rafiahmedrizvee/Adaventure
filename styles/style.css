@@ -420,7 +420,7 @@ footer p{
     
     .event img {
     
-        height: 170px;
+        height: 70px;
     
         width: 100%;
     
@@ -467,7 +467,7 @@ footer p{
     }
     
     .explore-item h1 {
-        font-size: 20px;
+        font-size: 15px;
         margin: 40px 0 0 0;
     }
     
@@ -521,13 +521,13 @@ footer p{
     }
     
     .img-one {
-        height: 130px;
+        height: 70px;
         margin: 0 0 10px 0;
         object-fit: cover;
     }
     
     .img-two {
-        height: 150px;
+        height: 70px;
         margin: 0 0 10px 0;
         object-fit: cover;
     }
